@@ -28,5 +28,52 @@
 
 
 
+## Containerise Web Application
+
+
+
+
+
+
+<img width="1472" height="501" alt="image" src="https://github.com/user-attachments/assets/34a03b99-2af4-4d1f-ad30-4fc85afec963" />
+
+
+
+
+
 
 <img width="1119" height="264" alt="image" src="https://github.com/user-attachments/assets/1899c541-72a1-41f6-86ae-313daee14b38" />
+
+
+
+
+
+
+<img width="1577" height="1044" alt="image" src="https://github.com/user-attachments/assets/2f9398b6-bb1b-48e7-a9ae-c12c52383de5" /> 
+
+
+
+
+
+
+
+
+<img width="1269" height="223" alt="image" src="https://github.com/user-attachments/assets/dddd8ae1-d230-4f7f-9411-00a3e388680f" />
+
+
+
+
+
+
+
+
+
+
+## Docker Networking 
+
+
+
+
+
+
+
