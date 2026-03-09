@@ -126,3 +126,62 @@ docker build -t hello-flask-mysql .
 
 
 
+
+
+
+
+
+
+
+<img width="625" height="418" alt="image" src="https://github.com/user-attachments/assets/38d4ee59-1698-449f-8cdf-9738fd2ae085" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1266" height="652" alt="image" src="https://github.com/user-attachments/assets/d45f8f79-8775-4809-8b23-3f2c2557545f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1212" height="49" alt="image" src="https://github.com/user-attachments/assets/acf4a92d-5918-47e6-9ef0-aeb762c92c6e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
