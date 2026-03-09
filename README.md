@@ -77,3 +77,52 @@
 
 
 
+docker run -d --name mydb --network  my-custom-network -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:8
+bash: /usr/bin/docker: No such file or directory
+
+
+
+
+
+docker build -t hello-flask-mysql . 
+
+
+
+
+
+
+
+<img width="834" height="49" alt="image" src="https://github.com/user-attachments/assets/856e92b5-41a2-472c-b2ef-213bc886beb0" />
+
+
+
+
+
+
+
+
+
+
+
+<img width="468" height="250" alt="image" src="https://github.com/user-attachments/assets/440d195b-cac4-4b94-bf9f-25fec5ce6233" />
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="921" height="640" alt="image" src="https://github.com/user-attachments/assets/75d11b44-e87f-4c7a-ae9b-57aeec68da59" />
+
+
+
+
+
+
+
+
