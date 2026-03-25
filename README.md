@@ -54,6 +54,9 @@
 
 
 
+docker build -t hello-flask (This initiates the build process, -t flag tags the image with a name where we are nakming "hello-flash") 
+
+
 
 
 
