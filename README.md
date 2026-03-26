@@ -68,6 +68,9 @@ docker build -t hello-flask (This initiates the build process, -t flag tags the 
 
 
 
+docker run -d -p 5002:5002 hello-flask - (the -d flag runs the container in detached mode which means running it in the background), -p 5002:5002 is basically mapping 5002 on current machine to 5002 in the container. The name of the image we are using is hello-flask. 
+
+
 
 
 
