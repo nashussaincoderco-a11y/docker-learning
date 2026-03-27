@@ -179,6 +179,57 @@ docker build -t hello-flask-mysql .
 
 
 
+### Networks for how containers can be managed
+
+Bridge Network: Default network mode for containers on the same machine. Containers on the bridge network can communicate with each other using thier own IP addresses. Isolated from the host machine network providing an extra layer of security. 
+
+
+Host Network - 
+
+
+
+## Linking containers together 
+So far, I have built a genuine web application using flask. Now will be linking flask to mySQL database. How to link multiple containers together alloweing them to interact with each other seamlessly. 
+
+
+
+
+<img width="1471" height="732" alt="image" src="https://github.com/user-attachments/assets/c0103d34-7680-4e1b-acac-64e7a68d14d2" />
+
+
+
+
+
+
+
+<img width="1911" height="1020" alt="image" src="https://github.com/user-attachments/assets/8a8bdec9-5b54-44de-83fc-86b3f7b30e60" />
+
+
+
+
+
+
+
+<img width="1235" height="415" alt="image" src="https://github.com/user-attachments/assets/b184a442-c043-48ef-842f-d2e79ea9c836" />
+
+
+
+
+
+
+
+
+docker run -d --name mydb --network my-custom-network -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
+
+
+
+
+
+
+
+docker run -d --name myapp --network my-custom-network -p 5002:5002 hello-flask-mysql
+
+
 
 
 
