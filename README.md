@@ -235,6 +235,196 @@ docker run -d --name myapp --network my-custom-network -p 5002:5002 hello-flask-
 
 
 
+## Using DockerHub
+
+
+First created a DockerHub account and created a repository where I can store my images. Made it public facing too. 
+
+
+
+
+
+<img width="1883" height="838" alt="image" src="https://github.com/user-attachments/assets/34e0f86f-56b6-4485-91ae-0e2797ad6180" />
+
+
+
+
+
+
+
+
+Used the "docker login" command to be able to access my dockerhub account in the command line. 
+
+
+
+
+<img width="918" height="162" alt="image" src="https://github.com/user-attachments/assets/62e53cc6-5e1d-4ac0-b18e-096cad3018b6" />
+
+
+
+
+
+I then built the image of my dockerfile and tagged it with my username/repository. I named the tag "v1". Used the dot at the end of the command to use the current directory as the build context.
+
+
+
+
+
+<img width="1916" height="1036" alt="image" src="https://github.com/user-attachments/assets/caaf072c-8049-48bc-9644-a7fc5842bbc7" />
+
+
+
+
+
+
+
+
+
+
+I then used dockerpush to upload my image to dockerhub. Basically it is uploading my image to dockerhub under the specified repository name. 
+
+
+
+
+<img width="999" height="253" alt="image" src="https://github.com/user-attachments/assets/982d03a4-bafe-4f3a-a3f3-e5d793fb5fa1" />
+
+
+
+
+
+Can see that my image is there now: 
+
+
+
+
+
+
+<img width="1174" height="685" alt="image" src="https://github.com/user-attachments/assets/6acc1c34-4cb8-4617-ba87-c230d36b8105" />
+
+
+
+
+
+
+
+
+Can also pull the image down to another machine using docker pull which will upload it to your local machine. 
+
+
+
+
+
+
+<img width="970" height="139" alt="image" src="https://github.com/user-attachments/assets/e600c0cb-8b4f-4978-83ec-79540733ce90" />
+
+
+
+
+
+## Pushing an Amazon ECR Image 
+
+
+
+
+
+
+
+
+<img width="1494" height="448" alt="image" src="https://github.com/user-attachments/assets/230d8a77-75ad-432b-a458-052178783952" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1479" height="503" alt="image" src="https://github.com/user-attachments/assets/1dbfda6a-5b8a-4b66-87e9-c5036aed1023" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1587" height="835" alt="image" src="https://github.com/user-attachments/assets/ba40673e-5b20-462a-83e3-690c19ffb90e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="825" height="670" alt="image" src="https://github.com/user-attachments/assets/6fc4fec9-ac77-46cd-870e-6930ef8ed843" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="825" height="670" alt="image" src="https://github.com/user-attachments/assets/043ac7e5-b3a1-4685-a810-f684a3fe138f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="806" height="358" alt="image" src="https://github.com/user-attachments/assets/ed2506d3-e877-4c5c-ba88-9c23492a15a2" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
