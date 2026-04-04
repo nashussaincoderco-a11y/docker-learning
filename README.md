@@ -420,6 +420,72 @@ Can also pull the image down to another machine using docker pull which will upl
 
 
 
+## Important Docker commmands to know 
+These are certain commands that you can use to manage your docker containers and images. Managing your docker builds are important because it can end of taking a lot of space on your local disk. It also makes pushing and pulling images easier to operate. 
+
+Here a few commands that can used: 
+
+* docker images - shows a list of the images that were created and stored.
+* docker inspect [image id] - inspect a specific image by showing the context of it.
+* docker rmi [image id] - overtime unused docker images can take up a significant amount of space and this is where we can utilize "docker rmi" to effectively remove unwanted images.
+* docker system prune - This is a command that can be used to remove all unused docker objects including unused images, stopped containers and even unused networks. This helps clean up the environment ensuring the resources that are actively being used are kept.
+* docker ps - view actively running containers.
+* docker stop [container id] - stop specific containers running in the background but it doesn't remove them.
+* docker rm [container id] - completely removes a container, useful to free up space
+
+
+ These are the essential commands that help you maintain a clean and organised docker environment preventing a mess of images and containers. 
+
+
+
+
+
+
+ ## Making our image lighter: Multistage builds 
+
+ Large images can slow down your deployments, consumes more bandwidth and requires more storage but this can all be managed using multistage builds reducing those factors. 
+
+
+ Definition of a multistage build: 
+ * It is basically multiple FROM statements in your dockerfile. 1 stage can be used to build your application and another much lighter stage to create the final image that will actually be deployed.
+
+* Theres a part that actually requires all the dependencies to build your application but not all those dependencies are then not required in the final build image.
+
+
+This approach lets you discard unnecessary files and dependencies resulting in a much smaller optimised image. By reducing the size of your docker image, it makes deployments faster and more effcient. 
+
+
+Smaller images are quicker to pull from a registry, faster to deploy and takes up less disk space. Just like trying to compress or a reduce a filesize, it is done via multistage builds. 
+
+
+
+
+
+
+<img width="598" height="787" alt="image" src="https://github.com/user-attachments/assets/3a6b173f-7483-4855-863a-a505966149b0" />
+
+
+
+
+
+
+
+
+
+<img width="735" height="216" alt="image" src="https://github.com/user-attachments/assets/634ef021-1543-4213-8d0c-665acf4bc05b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
