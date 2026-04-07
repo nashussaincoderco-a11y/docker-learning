@@ -482,6 +482,61 @@ Smaller images are quicker to pull from a registry, faster to deploy and takes u
 
 
 
+## Docker Swarm vs Kubernetes
+
+These are 2 orchestration tools that are used to manage multiple containers and it all varies on your environment. 
+
+
+### Docker Swarm: 
+
+
+Docker swarm is a native orchestration tool that is build into docker. Some of the features includde: 
+* Easy to setup
+* Useful for smaller deploymnets
+* No auto scaling - Has to be done manually or external tools.
+* It is easy to start a swarm cluster
+* Limited to Docker API's capabilities
+
+
+### Kubernetes: 
+
+This is a more complex and featuristic orchestration tool. Kubernetes was sdeveloped by Google and is an industry standard for managing containers at scale. It offers: 
+
+
+* Greater scalability and flexibility 
+*  Auto-scaling
+*  Ideal for larger deployments.
+*  Great active community meaning there's more support and resources
+*  It can be difficult to start a cluster compared to Docker swarm
+*  Not limited to Docker API's capabilities
+*  Makes fluxiating workload easier to manage.
+*  Managed services (K8 on AWS, Azure and Google).
+
+
+## Why we should use Orchestration tools: 
+
+
+As your applications grow in complexity and scaling, managing containers manually becomes difficult. Orchestration tools are used to help you manage large-scale deployments ensuring your applications run smoothly across multiple environements. 
+
+
+Here are some of the benefits of orchestration tools: 
+
+
+
+* Management of large scale deployments. It automates the deployment and scaling of containers - Some apps may require simultaneous services to run for a specific application in different environments.
+* Ensure high availability for your application that are useful for features and to recover from them.
+* Automate scaling and recovery - Scale your applications based on demand for performance management.
+* Offers self-healing capabilities by detecting and restarting containers ensuring continued services.
+* Simple deployment reductions
+* Improves resources utilization
+* Eliminates manual tasks that require significant effort by allowing you to improve your application.
+
+
+ Orchestration tools are essential in modern DevOps practices
+
+
+
+
 
 
 
